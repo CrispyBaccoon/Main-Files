@@ -16,6 +16,6 @@ color 0A
 
 start .\i.vbs
 ping localhost -n 1 >NUL
-start .\d.cmd
+start .\d.bat
 
 goto a
