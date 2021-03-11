@@ -1,7 +1,6 @@
 @echo off
 echo hello
-pause
-exit
+
 color 0A
 :a
 echo 573498076598046985064315983659543765865865282868652865368653865368
@@ -15,8 +14,8 @@ echo 43754398076-546754876985487685376985476984357536365856254754747766
 ping localhost -n 1 >NUL
 color 0A
 
-start i.vbs
+start .\i.vbs
 ping localhost -n 1 >NUL
-start d.cmd
+start .\d.cmd
 
 goto a
