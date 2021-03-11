@@ -3,4 +3,4 @@
 start .\d.bat
 start .\e.vbs
 
-@exit
+exit
