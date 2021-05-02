@@ -73,6 +73,5 @@ code = [] + prologue + var_settings + execute
 final_code = "\n".join(code)
 
 # // execution
-print(final_code)
-# with open("payload.bat", "w") as handle:
-    # handle.write(final_code)
+with open("payload.bat", "w+") as handle:
+    handle.write(final_code)
