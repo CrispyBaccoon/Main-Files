@@ -123,7 +123,6 @@ final_code = "\n".join(code)
  execution
 
 ```Python
-print(final_code)
-
-    # handle.write(final_code)
+with open("payload.bat", "w+") as handle:
+    handle.write(final_code)
 ```
